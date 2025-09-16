@@ -1,0 +1,46 @@
+.qLabelContainer {
+  display: flex;
+  align-items: center;
+  min-height: var(--q-space-500);
+}
+.qLabelContainer .qLabelText {
+  font-weight: var(--q-font-weight-medium) !important;
+  color: var(--q-text-secondary);
+}
+.qLabelContainer .qLabelText.qLabelText--disabled {
+  color: var(--q-text-disabled);
+}
+.qLabelContainer .qLabelEndAdornmentWrapper {
+  gap: var(--q-space-100);
+}
+.qLabelContainer .qLabelLeftSide {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.qLabelContainer .qLabelLeftSide > .qLabelIconsWrapper {
+  margin-left: var(--q-space-200);
+}
+.qLabelContainer .qLabelLeftSide > .qLabelIconsWrapper .labelChipIcon {
+  width: 8px;
+  height: 8px;
+}
+.qLabelContainer .qLabelTextWrapper {
+  display: flex;
+  align-items: center;
+}
+.qLabelContainer .qLabelTextWrapper > .qLabelRequiredIndicator {
+  margin-left: var(--q-space-50);
+}
+.qLabelContainer .qLabelIconsWrapper {
+  display: flex;
+  align-items: center;
+}
+.qLabelContainer .qLabelIconsWrapper .qLabelHelpIcon {
+  font-size: var(--q-font-size-16);
+  color: var(--q-fg-quinary);
+}
+
+.qLabel__iconBeforeLabel {
+  margin-right: var(--q-space-200);
+}

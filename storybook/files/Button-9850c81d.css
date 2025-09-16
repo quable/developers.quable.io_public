@@ -1,0 +1,6 @@
+.qButton--loading.MuiButton-sizeMedium {
+  padding-inline: var(--q-space-250);
+}
+.qButton--loading.MuiButton-sizeSmall {
+  padding-inline: var(--q-space-200);
+}
