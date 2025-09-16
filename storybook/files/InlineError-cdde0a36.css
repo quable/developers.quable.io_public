@@ -1,9 +1,0 @@
-.qInlineError {
-  align-items: center;
-  gap: var(--q-space-100);
-  color: var(--q-text-error-primary);
-  font-size: var(--q-font-size-14);
-}
-.qInlineError--withMarginTop {
-  margin-top: var(--q-space-100);
-}

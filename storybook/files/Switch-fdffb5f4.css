@@ -1,8 +1,0 @@
-.qSwitch .labelPlacement.right {
-  flex-direction: row-reverse;
-  justify-content: start;
-}
-.qSwitch .labelPlacement.left {
-  flex-direction: row;
-  gap: var(--q-space-200);
-}
